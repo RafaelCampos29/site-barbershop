@@ -1,0 +1,180 @@
+
+body {
+    margin: 0;
+    font-family: 'Lemonada', cursive;
+}
+
+header {
+    background-image: url(/img/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    display: flex;
+    height: 7vh;
+}
+
+.logo {
+    margin: auto;
+    height: 100%;
+    width: auto;
+}
+
+.princ {
+    width: 100%;
+}
+
+h2 {
+    padding-top: 15px;
+}
+
+.style {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.estilo {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+
+.prc {
+    padding: 0;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.preco {
+    color: rgb(28, 46, 206);
+}
+
+.section-price {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding-left: 0;
+    width: 100%;
+}
+
+.list-price {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.local {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.salao {
+    width: 100%;
+    height: auto;
+}
+
+.tempo {
+    text-align: center;
+}
+
+.time {
+    color: white;
+    background-color: rgb(28, 46, 206);
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.dias {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.dia {
+    font-size: 30px;
+    margin-top: 15px;
+    height: 50px;
+}
+
+.hora {
+    font-size: 15px;
+}
+
+.mapa {
+    text-align: center;
+}
+
+.map {
+    width: 100%;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+}
+
+span {
+    margin: auto 0;
+}
+
+.bt {
+    padding: 5px 10px;
+    position: fixed;
+    text-decoration: none;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+
+@media screen and (min-width:768px) {
+    .princ {
+        height: auto;
+        width: 100vw;
+    }
+}
+
+@media screen  and (min-width: 1024px) {
+    .first {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .princ {
+        height: 150vh;
+        width: auto;
+    }
+    .style {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+    .cortes {
+        width: 800px;
+    }
+    .section-price {
+        width: 700px;
+    }
+    
+}
